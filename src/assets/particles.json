@@ -57,8 +57,8 @@
         "duration": 0.4,
         "easing": "ease-out-quad",
         "factor": 1,
-        "maxSpeed": 50,
-        "speed": 1
+        "maxSpeed": 1,
+        "speed": 0.1
       },
       "bounce": {
         "distance": 200
@@ -113,9 +113,9 @@
       "repulse": {
         "distance": 200,
         "duration": 0.4,
-        "factor": 100,
-        "speed": 1,
-        "maxSpeed": 50,
+        "factor": 10,
+        "speed": 0.1,
+        "maxSpeed": 0.1,
         "easing": "ease-out-quad"
       },
       "slow": {
@@ -309,7 +309,7 @@
           "count": 0,
           "enable": true,
           "offset": 0,
-          "speed": 50,
+          "speed": 1,
           "sync": false
         },
         "s": {
@@ -416,10 +416,10 @@
       "drift": 0,
       "enable": true,
       "gravity": {
-        "acceleration": 9.81,
+        "acceleration": 0.1,
         "enable": false,
         "inverse": false,
-        "maxSpeed": 5
+        "maxSpeed": 0.1
       },
       "path": {
         "clamp": true,
