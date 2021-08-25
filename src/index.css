@@ -6,3 +6,7 @@ body {
   background: -webkit-linear-gradient(to right, #a5cc82, #00467f);
   background: linear-gradient(to right, #a5cc82, #00467f);
 }
+
+button {
+  cursor: pointer;
+}
