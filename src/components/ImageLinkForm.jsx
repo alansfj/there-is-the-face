@@ -4,12 +4,16 @@ import "../css/ImageLinkForm.css";
 const ImageLinkForm = ({ onInputChange, onBtnSubmit }) => {
   return (
     <div>
-      <p className="f3">This App will detect faces in your images. Try it.</p>
+      <p className="f3">
+        This App will detect faces in your images. Try it. 😉
+      </p>
       <div className="center">
         <div className=" form center pa4 br3 shadow-5">
           <input
             className="f4 pa2 w-70 center"
             type="text"
+            placeholder="Image URL..."
+            autoComplete="off"
             onChange={onInputChange}
           />
           <button

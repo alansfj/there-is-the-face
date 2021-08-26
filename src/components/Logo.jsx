@@ -5,7 +5,7 @@ import face from "../assets/face-recognition.png";
 
 const Logo = () => {
   return (
-    <div className="ma4 mt0">
+    <div className="ma4 mt5">
       <Tilt
         className="Tilt br2 shadow-2 br4"
         options={{ max: 50 }}
