@@ -1,8 +1,6 @@
 import "./App.css";
 import ImageLinkForm from "./components/ImageLinkForm";
 import Logo from "./components/Logo";
-import Navigation from "./components/Navigation";
-import Rank from "./components/Rank";
 import Particles from "react-tsparticles";
 import particlesOptions from "./assets/particles.json";
 import { useRef, useState } from "react";
