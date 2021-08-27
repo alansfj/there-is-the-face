@@ -8,7 +8,7 @@ import FaceRecognition from "./components/FaceRecognition";
 import Clarifai from "clarifai";
 
 const app = new Clarifai.App({
-  apiKey: "693040b8cb044318860b9fac5a579775",
+  apiKey: "YOUR_API_KEY",
 });
 
 function App() {
